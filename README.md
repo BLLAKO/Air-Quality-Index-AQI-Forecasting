@@ -1,4 +1,4 @@
-# 🌍 Air Quality Index (AQI) Forecasting
+# Air Quality Index (AQI) Forecasting
 
 This project builds a machine learning pipeline to forecast daily **Air Quality Index (AQI)** values based on past pollution data.
 
