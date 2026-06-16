@@ -17,5 +17,5 @@ def plot_forecast(y_true, y_pred, dates, save_path=None):
     plt.grid(True)
     if save_path:
         plt.savefig(save_path, bbox_inches="tight")
-        print(f"✅ Forecast plot saved to {save_path}")
+        print(f"Forecast plot saved to {save_path}")
     plt.show()
