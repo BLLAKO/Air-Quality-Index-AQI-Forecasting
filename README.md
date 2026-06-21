@@ -1,6 +1,6 @@
 # Air Quality Index (AQI) Forecasting
 
-This project builds a machine learning pipeline to forecast daily **Air Quality Index (AQI)** values based on past pollution data.
+This project that builds a machine learning pipeline to forecast daily **Air Quality Index (AQI)** values based on past pollution data.
 
 ## Pipeline
 1. **Data ingestion** – load raw AQI data
