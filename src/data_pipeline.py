@@ -1,4 +1,3 @@
-# src/data_pipeline.py
 import pandas as pd
 
 def load_data(path="data/raw/air_quality.csv"):
@@ -6,7 +5,7 @@ def load_data(path="data/raw/air_quality.csv"):
     df = pd.read_csv(path, parse_dates=["date"])
     df.set_index("date", inplace=True)
 
-    # Force daily frequency, fill missing values by interpolation
+    # Here we force daily frequency and fill missing values by interpolation
     df = df.asfreq("D")
     df = df.interpolate(method="time")
 
